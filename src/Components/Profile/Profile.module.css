@@ -1,0 +1,42 @@
+.container {
+  border-radius: 10px;
+  border: 1px solid rgb(99, 101, 109);
+
+  text-align: center;
+  margin: 0 auto;
+  max-width: 100%;
+  background-color: white;
+}
+
+.img {
+  border-radius: 50%;
+  border: 1px solid rgba(209, 206, 203, 0.718);
+  width: 150px;
+  height: 200px;
+  margin: 20px auto;
+}
+
+.titleName {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.textTag {
+  color: rgba(74, 73, 73, 0.718);
+  margin-bottom: 15px;
+}
+
+.list {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.listItem {
+  border: 1px solid rgba(209, 206, 203, 0.718);
+  background-color: rgba(240, 237, 233, 0.718);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
